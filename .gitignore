@@ -1,0 +1,2 @@
+# Large downloaded genome files should not be versioned
+week6/*.fna
