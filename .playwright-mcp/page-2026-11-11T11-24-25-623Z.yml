@@ -1,0 +1,88 @@
+- generic [ref=f2e2]:
+  - navigation [ref=f2e3]:
+    - generic [ref=f2e8]:
+      - 'img "Account color: Unset" [ref=f2e9]'
+      - navigation "Global" [ref=f2e10]:
+        - generic [ref=f2e11]:
+          - link "Skip to Main Content" [ref=f2e12] [cursor=pointer]:
+            - /url: "#c"
+          - link "AWS Console Home" [ref=f2e14] [cursor=pointer]:
+            - /url: https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1
+          - generic [ref=f2e16]:
+            - img "Notifications" [ref=f2e19] [cursor=pointer]
+            - list [ref=f2e22]:
+              - listitem [ref=f2e23]:
+                - button "Help & support" [ref=f2e25] [cursor=pointer]:
+                  - img "Support" [ref=f2e27]
+              - listitem [ref=f2e28]:
+                - button "Settings" [ref=f2e30] [cursor=pointer]
+              - listitem [ref=f2e34]:
+                - button "AmbassadoriAviation" [ref=f2e36] [cursor=pointer]:
+                  - generic [ref=f2e40]:
+                    - 'generic "Account color: Unset" [ref=f2e42]': AmbassadoriAviation (650687536703)
+                    - generic [ref=f2e45]: AmbassadoriAviation
+  - generic [ref=f2e54]:
+    - navigation [ref=f2e57]:
+      - button "Console navigation sidebar" [expanded] [ref=f2e59] [cursor=pointer]
+    - generic [ref=f2e62]:
+      - generic:
+        - navigation:
+          - button [ref=f2e64] [cursor=pointer]
+    - main [ref=f2e66]:
+      - generic [ref=f2e69]:
+        - heading "API keys" [level=1] [ref=f2e75]
+        - generic [ref=f2e77]:
+          - generic [ref=f2e80]:
+            - heading [level=2] [ref=f2e86] [cursor=pointer]:
+              - button [expanded] [ref=f2e88]
+            - group "How it works" [ref=f2e93]:
+              - generic [ref=f2e95]:
+                - paragraph [ref=f2e96]: To make API requests programmatically, you must authenticate with AWS credentials. Amazon Bedrock lets you generate an Amazon Bedrock API key that you can use as credentials to make Amazon Bedrock API requests. You can integrate the key into your set up for it to be recognized automatically.
+                - generic [ref=f2e97]:
+                  - generic:
+                    - generic [ref=f2e99]:
+                      - generic [ref=f2e100]:
+                        - heading "Short-term API keys" [level=4] [ref=f2e102]
+                        - paragraph [ref=f2e103]: A short-term Amazon Bedrock API key expires after your console session expires (12 hours by default). We recommend that you use short-term keys for setups that require a higher level of security.
+                        - paragraph
+                      - button "Generate short-term API keys" [ref=f2e104] [cursor=pointer]
+                    - generic [ref=f2e106]:
+                      - generic [ref=f2e107]:
+                        - heading "Long-term API keys" [level=4] [ref=f2e109]
+                        - paragraph [ref=f2e110]: A long-term Amazon Bedrock API key can be set to last longer than 12 hours. We strongly recommend using long-term keys only for exploratory purposes to avoid security risks in production.
+                      - button "Generate long-term API keys" [ref=f2e111] [cursor=pointer]
+          - generic [ref=f2e113]:
+            - tablist [ref=f2e116]:
+              - tab "Short-term API keys" [selected] [ref=f2e118] [cursor=pointer]
+              - tab "Long-term API keys" [ref=f2e122] [cursor=pointer]
+            - tabpanel "Short-term API keys" [ref=f2e126]:
+              - generic [ref=f2e128]:
+                - generic [ref=f2e131]:
+                  - heading "Short-term API keys" [level=2] [ref=f2e133]
+                  - button "Generate short-term API keys" [ref=f2e135] [cursor=pointer]
+                - paragraph [ref=f2e138]:
+                  - text: These API keys provide temporary access that automatically expires when your current console session, which can last up to 12 hours. Each API key generated inherits the permissions of your current console session. Make sure that your permissions include access to Amazon Bedrock actions. The
+                  - link [ref=f2e139]:
+                    - /url: https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam-awsmanpol.html#security-iam-awsmanpol-AmazonBedrockLimitedAccess
+                    - text: AmazonBedrockLimitedAccess policy
+                    - img "Opens in a new tab" [ref=f2e141]
+                  - text: includes these permissions and can be attached to the role that uses these keys. You can also automatically refresh short-term keys for your applications.
+                  - link [ref=f2e143]:
+                    - /url: https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html
+                    - text: Learn more.
+                    - img "Opens in a new tab" [ref=f2e145]
+  - contentinfo [ref=f2e147]:
+    - generic [ref=f2e151]:
+      - generic [ref=f2e152]:
+        - button "Agent Toolkit for AWS" [ref=f2e153] [cursor=pointer]
+        - button "Console Mobile App" [ref=f2e159] [cursor=pointer]
+      - generic [ref=f2e165]: © 2026, Amazon Web Services, Inc. or its affiliates.
+      - list [ref=f2e168]:
+        - listitem [ref=f2e169]:
+          - link "Privacy" [ref=f2e170] [cursor=pointer]:
+            - /url: https://aws.amazon.com/privacy/
+        - listitem [ref=f2e171]:
+          - link "Terms" [ref=f2e172] [cursor=pointer]:
+            - /url: https://aws.amazon.com/terms/
+        - listitem [ref=f2e173]:
+          - button "Cookie preferences" [ref=f2e174] [cursor=pointer]

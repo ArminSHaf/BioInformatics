@@ -1,0 +1,47 @@
+[     908ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[     909ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[     964ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 0} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    2144ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    2144ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    2205ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 0} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    5375ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    5375ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    5419ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 0} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[    5863ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://a.b.cdn.console.awsstatic.com/a/v1/QZH4BLLN2BFJUHBHMXK2ZDTAHTSYKUGLAIDZ2WMDWC2EEILWJKEQ/awsc-head.js:0
+[    5903ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ AssetLoader.js:1
+[   15021ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   15021ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   15103ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-6aa6c0ba26e961dfe3fa8149478aafbe.js:0
+[   15116ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 32} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   15173ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-d6df084b24cb1e4161531071e266f1fc.js:0
+[   15193ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-73d9be380dc41aa410960fda6cb2e2c2.js:0
+[   15197ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-06c19f6922425a08c3e0db9e69cc1bee.js:0
+[   15214ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-13369a1a3ccb8ed941e71b4aa4b79bae.js:0
+[   15215ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-5c117c70229ae61975ab0692bb61f098.js:0
+[   15250ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-bd24806c0582877d80972e106c243f73.js:0
+[   15571ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-9d4e81ffd0855e2cb6b3c04eab5f67ab.js:0
+[   15595ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-03609611e652f440d2d0afa638f0bb90.js:0
+[   15596ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-a5118157c34654709bcec525386b7a45.js:0
+[   15596ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-7be9e8f742e64efc27c06b54c1d04d11.js:0
+[   15597ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-5135eb583e55a8ac5fbb2a1257b90681.js:0
+[   15597ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-13d5bf0c498dcfb036eb5820496c48f4.js:0
+[   15597ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-7c801cf33217b5922206211dd8894e1b.js:0
+[   15631ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-d26e4aff3bf0a7f92a06979f9ee96628.js:0
+[   15631ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://a.b.cdn.console.awsstatic.com/a/v1/FHVTRUBTBYADXNYIVJSPTY3HIFLGOTOCLLQNIJUI4R5ICKXDUXSA/assets/model-b761dbe8eff0c208590d943e814dcc28.js:0
+[   17742ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   17742ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   17746ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 33} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   18123ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   18123ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   18136ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 34} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   19201ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   19202ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   19205ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 35} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   19936ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://global.console.aws.amazon.com/lotus/metadata?packageName=%40amzn%2Fawsc-bedrock-model-migration-module&majorVersion=1&accountId=650687536703&region=ap-south-1&succeedOnRetry=true:0
+[   20233ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://global.console.aws.amazon.com/lotus/metadata?packageName=%40amzn%2Fawsc-bedrock-model-migration-module&majorVersion=1&accountId=650687536703&region=ap-south-1&succeedOnRetry=true:0
+[   21039ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://global.console.aws.amazon.com/lotus/metadata?packageName=%40amzn%2Fawsc-bedrock-model-migration-module&majorVersion=1&accountId=650687536703&region=ap-south-1&succeedOnRetry=true:0
+[   21051ms] [LOG] [ContentMain] @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   21051ms] [LOG] [ContentService] document.readyState: loading @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   21062ms] [LOG] [ContentService.SetContentInitData] target: { TabId: 893225288, FrameId: 36} @ chrome-extension://cdfjcmjmgdnojgaojdnefhjjpaijapci/ContentMain.js:3
+[   21487ms] [ERROR] [TangerineBox] Telemetry configuration is missing. Error: SecurityError: Failed to read a named property '_internal_tb_telemetry_broker' from 'Window': Blocked a frame with origin "https://conversational-experience-worker.widget.console.aws.amazon.com" from accessing a cross-origin frame. @ https://a.b.cdn.console.awsstatic.com/a/v1/XCFIYOT3DGJGANRCWWB262MLJFVAYYNIEA2JBPVGPJ2ACW4PUX6Q/assets/module-DjntmBbp.js:186
+[   22777ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://global.console.aws.amazon.com/lotus/metadata?packageName=%40amzn%2Fawsc-bedrock-model-migration-module&majorVersion=1&accountId=650687536703&region=ap-south-1&succeedOnRetry=true:0

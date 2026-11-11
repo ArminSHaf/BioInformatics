@@ -1,0 +1,284 @@
+- generic [ref=f2e2]:
+  - navigation [ref=f2e3]:
+    - generic [ref=f2e8]:
+      - 'img "Account color: Unset" [ref=f2e9]'
+      - navigation "Global" [ref=f2e10]:
+        - generic [ref=f2e11]:
+          - link "Skip to Main Content" [ref=f2e12] [cursor=pointer]:
+            - /url: "#c"
+          - generic [ref=f2e13]:
+            - link "AWS Console Home" [ref=f2e14] [cursor=pointer]:
+              - /url: https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1
+            - button "AWS assistant" [expanded] [ref=f2e177] [cursor=pointer]
+            - button "Services" [ref=f2e186] [cursor=pointer]
+          - generic [ref=f2e199]:
+            - generic [ref=f2e200]:
+              - img "Search" [ref=f2e201]
+              - generic [ref=f2e203]:
+                - searchbox [aria-hidden]
+                - combobox "Search" [ref=f2e204]
+              - button "Ask AWS assistant" [ref=f2e205]
+              - generic: "[Alt+S]"
+            - status [ref=f2e207]
+          - generic [ref=f2e16]:
+            - link "CloudShell" [ref=f2e209] [cursor=pointer]:
+              - /url: https://ap-south-1.console.aws.amazon.com/cloudshell/home?region=ap-south-1
+            - generic [ref=f2e17] [cursor=pointer]:
+              - button "Notifications (none available)" [ref=f2e214]:
+                - img "Notifications" [ref=f2e215]
+              - img "Notifications" [ref=f2e19]
+            - list [ref=f2e22]:
+              - listitem [ref=f2e23]:
+                - button "Help & support" [ref=f2e25] [cursor=pointer]:
+                  - img "Support" [ref=f2e27]
+              - listitem [ref=f2e28]:
+                - button "Settings" [ref=f2e30] [cursor=pointer]
+              - listitem [ref=f2e216]:
+                - combobox "Regions (Asia Pacific (Mumbai))" [ref=f2e218] [cursor=pointer]:
+                  - generic [ref=f2e219]: Asia Pacific (Mumbai)
+              - listitem [ref=f2e34]:
+                - button "AmbassadoriAviation" [ref=f2e36] [cursor=pointer]:
+                  - generic [ref=f2e40]:
+                    - 'generic "Account color: Unset" [ref=f2e42]': AmbassadoriAviation (650687536703)
+                    - generic [ref=f2e45]: AmbassadoriAviation
+      - generic:
+        - generic:
+          - list
+  - generic [ref=f2e54]:
+    - generic [ref=f2e223]:
+      - button "Console navigation sidebar" [expanded] [ref=f2e225] [cursor=pointer]
+      - navigation "Breadcrumb" [ref=f2e229]:
+        - list [ref=f2e230]:
+          - listitem [ref=f2e231]:
+            - link "Amazon Bedrock" [ref=f2e233] [cursor=pointer]:
+              - /url: /bedrock/home#/overview
+          - listitem [ref=f2e237]:
+            - link "API keys" [disabled] [ref=f2e239]
+        - list [aria-hidden] [ref=f2e241]:
+          - listitem [ref=f2e242]:
+            - link [ref=f2e244] [cursor=pointer]:
+              - /url: /bedrock/home#/overview
+              - generic [ref=f2e245]: Amazon Bedrock
+          - listitem [ref=f2e248]:
+            - generic [ref=f2e249]: API keys
+      - region "Drawers" [ref=f2e253]:
+        - toolbar "Drawers" [ref=f2e254]:
+          - button "Tools toggle" [ref=f2e256] [cursor=pointer]
+    - complementary "AWS assistant" [ref=f2e259]:
+      - slider "Resize AWS assistant" [ref=f2e264]
+      - generic [ref=f2e266]:
+        - generic [ref=f2e268]:
+          - heading "AWS assistant" [level=4] [ref=f2e270]
+          - toolbar "Left panel actions" [ref=f2e272]:
+            - generic [ref=f2e273]:
+              - button "Toggle fullscreen" [ref=f2e277] [cursor=pointer]
+              - button "Close AWS assistant" [ref=f2e281] [cursor=pointer]
+        - region "AWS assistant" [ref=f2e285]:
+          - iframe [ref=f2e299]:
+            - generic [ref=f7e3]:
+              - generic:
+                - generic:
+                  - generic:
+                    - list
+              - generic [ref=f7e18]:
+                - text: Help us improve AWS assistant by
+                - button "providing feedback." [ref=f7e19] [cursor=pointer]
+    - navigation "Console" [ref=f2e302]:
+      - button "Close console navigation sidebar" [ref=f2e304] [cursor=pointer]
+      - generic [ref=f2e306]:
+        - heading [level=2] [ref=f2e307]:
+          - link "Amazon Bedrock" [ref=f2e308] [cursor=pointer]:
+            - /url: "#overview"
+        - generic [ref=f2e310]: bedrock-runtime endpoint
+        - list [ref=f2e313]:
+          - listitem [ref=f2e314]:
+            - generic [ref=f2e315]:
+              - button "Discover" [expanded] [ref=f2e320] [cursor=pointer]
+              - group "Discover" [ref=f2e324]:
+                - list [ref=f2e327]:
+                  - listitem [ref=f2e328]:
+                    - link "Overview" [ref=f2e329] [cursor=pointer]:
+                      - /url: "#overview"
+                  - listitem [ref=f2e332]:
+                    - generic [ref=f2e333]:
+                      - link "Quickstart" [ref=f2e334] [cursor=pointer]:
+                        - /url: "#quickstart"
+                      - button "New" [ref=f2e341] [cursor=pointer]
+                  - listitem [ref=f2e342]:
+                    - link "Model catalog" [ref=f2e343] [cursor=pointer]:
+                      - /url: "#model-catalog"
+                  - listitem [ref=f2e346]:
+                    - link "API keys" [ref=f2e347] [cursor=pointer]:
+                      - /url: "#api-keys"
+          - listitem [ref=f2e350]:
+            - generic [ref=f2e351]:
+              - button "Labs" [expanded] [ref=f2e356] [cursor=pointer]
+              - group "Labs" [ref=f2e360]:
+                - list [ref=f2e363]:
+                  - listitem [ref=f2e364]:
+                    - generic [ref=f2e365]:
+                      - link "Quotas" [ref=f2e366] [cursor=pointer]:
+                        - /url: "#model-quotas"
+                      - button "New" [ref=f2e373] [cursor=pointer]
+                  - listitem [ref=f2e374]:
+                    - generic [ref=f2e375]:
+                      - link "Compare models" [ref=f2e376] [cursor=pointer]:
+                        - /url: "#compare-models"
+                      - button "New" [ref=f2e383] [cursor=pointer]
+          - listitem [ref=f2e384]:
+            - generic [ref=f2e385]:
+              - button "Test" [expanded] [ref=f2e390] [cursor=pointer]
+              - group "Test" [ref=f2e394]:
+                - list [ref=f2e397]:
+                  - listitem [ref=f2e398]:
+                    - link "Playground" [ref=f2e399] [cursor=pointer]:
+                      - /url: "#playground"
+                  - listitem [ref=f2e402]:
+                    - link "Tokenizer" [ref=f2e403] [cursor=pointer]:
+                      - /url: "#tokenizer"
+          - listitem [ref=f2e406]:
+            - generic [ref=f2e407]:
+              - button "Infer" [expanded] [ref=f2e412] [cursor=pointer]
+              - group "Infer" [ref=f2e416]:
+                - list [ref=f2e419]:
+                  - listitem [ref=f2e420]:
+                    - link "Batch inference" [ref=f2e421] [cursor=pointer]:
+                      - /url: "#batch-inference"
+          - listitem [ref=f2e424]:
+            - generic [ref=f2e425]:
+              - button "Tune" [expanded] [ref=f2e430] [cursor=pointer]
+              - group "Tune" [ref=f2e434]:
+                - list [ref=f2e437]:
+                  - listitem [ref=f2e438]:
+                    - link "Custom models" [ref=f2e439] [cursor=pointer]:
+                      - /url: "#custom-models"
+                  - listitem [ref=f2e442]:
+                    - link "Prompt router models" [ref=f2e443] [cursor=pointer]:
+                      - /url: "#prompt-routers"
+                  - listitem [ref=f2e446]:
+                    - link "Marketplace model deployments" [ref=f2e447] [cursor=pointer]:
+                      - /url: "#marketplace-deployments"
+          - listitem [ref=f2e450]:
+            - generic [ref=f2e451]:
+              - button "Build" [expanded] [ref=f2e456] [cursor=pointer]
+              - group "Build" [ref=f2e460]:
+                - list [ref=f2e463]:
+                  - listitem [ref=f2e464]:
+                    - link "AgentCore" [ref=f2e465] [cursor=pointer]:
+                      - /url: https://ap-south-1.console.aws.amazon.com/bedrock-agentcore/home?region=ap-south-1#
+                  - listitem [ref=f2e470]:
+                    - link "Knowledge Bases (KB)" [ref=f2e471] [cursor=pointer]:
+                      - /url: "#knowledge-bases"
+                  - listitem [ref=f2e474]:
+                    - link "Flows" [ref=f2e475] [cursor=pointer]:
+                      - /url: "#flows"
+                  - listitem [ref=f2e478]:
+                    - link "Guardrails" [ref=f2e479] [cursor=pointer]:
+                      - /url: "#guardrails"
+                  - listitem [ref=f2e482]:
+                    - link "Prompt Management" [ref=f2e483] [cursor=pointer]:
+                      - /url: "#prompt-management"
+                  - listitem [ref=f2e486]:
+                    - generic [ref=f2e487]:
+                      - link "Advanced Prompt Optimization" [ref=f2e488] [cursor=pointer]:
+                        - /url: "#prompt-optimization"
+                      - button "New" [ref=f2e495] [cursor=pointer]
+                  - listitem [ref=f2e496]:
+                    - link "Data Automation" [ref=f2e497] [cursor=pointer]:
+                      - /url: "#bda/how-it-works"
+                  - listitem [ref=f2e500]:
+                    - link "Agents (classic)" [ref=f2e501] [cursor=pointer]:
+                      - /url: "#agents"
+          - listitem [ref=f2e504]:
+            - generic [ref=f2e505]:
+              - button "Assess" [expanded] [ref=f2e510] [cursor=pointer]
+              - group "Assess" [ref=f2e514]:
+                - list [ref=f2e517]:
+                  - listitem [ref=f2e518]:
+                    - link "Evaluations" [ref=f2e519] [cursor=pointer]:
+                      - /url: "#evaluation"
+          - listitem [ref=f2e522]:
+            - generic [ref=f2e523]:
+              - button "Configure and learn" [expanded] [ref=f2e528] [cursor=pointer]
+              - group "Configure and learn" [ref=f2e532]:
+                - list [ref=f2e535]:
+                  - listitem [ref=f2e536]:
+                    - link "Settings" [ref=f2e537] [cursor=pointer]:
+                      - /url: "#settings"
+                  - listitem [ref=f2e540]:
+                    - link "Model access" [ref=f2e541] [cursor=pointer]:
+                      - /url: "#modelaccess"
+                  - listitem [ref=f2e544]:
+                    - link [ref=f2e545] [cursor=pointer]:
+                      - /url: https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+                      - generic [ref=f2e547]:
+                        - text: User guide
+                        - img "Opens a new tab with user guide" [ref=f2e548]
+                  - listitem [ref=f2e550]:
+                    - link [ref=f2e551] [cursor=pointer]:
+                      - /url: https://aws.amazon.com/service-terms
+                      - generic [ref=f2e553]:
+                        - text: Bedrock Service Terms
+                        - img "Opens a new tab with Terms of Service" [ref=f2e554]
+    - main [ref=f2e66]:
+      - generic:
+        - region "Notifications"
+      - generic [ref=f2e69]:
+        - heading "API keys" [level=1] [ref=f2e75]
+        - generic [ref=f2e77]:
+          - generic [ref=f2e80]:
+            - heading [level=2] [ref=f2e86] [cursor=pointer]:
+              - button [expanded] [ref=f2e88]
+            - group "How it works" [ref=f2e93]:
+              - generic [ref=f2e95]:
+                - paragraph [ref=f2e96]: To make API requests programmatically, you must authenticate with AWS credentials. Amazon Bedrock lets you generate an Amazon Bedrock API key that you can use as credentials to make Amazon Bedrock API requests. You can integrate the key into your set up for it to be recognized automatically.
+                - generic [ref=f2e97]:
+                  - generic:
+                    - generic [ref=f2e99]:
+                      - generic [ref=f2e100]:
+                        - heading "Short-term API keys" [level=4] [ref=f2e102]
+                        - paragraph [ref=f2e103]: A short-term Amazon Bedrock API key expires after your console session expires (12 hours by default). We recommend that you use short-term keys for setups that require a higher level of security.
+                        - paragraph
+                      - button "Generate short-term API keys" [ref=f2e104] [cursor=pointer]
+                    - generic [ref=f2e106]:
+                      - generic [ref=f2e107]:
+                        - heading "Long-term API keys" [level=4] [ref=f2e109]
+                        - paragraph [ref=f2e110]: A long-term Amazon Bedrock API key can be set to last longer than 12 hours. We strongly recommend using long-term keys only for exploratory purposes to avoid security risks in production.
+                      - button "Generate long-term API keys" [ref=f2e111] [cursor=pointer]
+          - generic [ref=f2e113]:
+            - tablist [ref=f2e116]:
+              - tab "Short-term API keys" [selected] [ref=f2e118] [cursor=pointer]
+              - tab "Long-term API keys" [ref=f2e122] [cursor=pointer]
+            - tabpanel "Short-term API keys" [ref=f2e126]:
+              - generic [ref=f2e128]:
+                - generic [ref=f2e131]:
+                  - heading "Short-term API keys" [level=2] [ref=f2e133]
+                  - button "Generate short-term API keys" [ref=f2e135] [cursor=pointer]
+                - paragraph [ref=f2e138]:
+                  - text: These API keys provide temporary access that automatically expires when your current console session, which can last up to 12 hours. Each API key generated inherits the permissions of your current console session. Make sure that your permissions include access to Amazon Bedrock actions. The
+                  - link [ref=f2e139]:
+                    - /url: https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam-awsmanpol.html#security-iam-awsmanpol-AmazonBedrockLimitedAccess
+                    - text: AmazonBedrockLimitedAccess policy
+                    - img "Opens in a new tab" [ref=f2e141]
+                  - text: includes these permissions and can be attached to the role that uses these keys. You can also automatically refresh short-term keys for your applications.
+                  - link [ref=f2e143]:
+                    - /url: https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html
+                    - text: Learn more.
+                    - img "Opens in a new tab" [ref=f2e145]
+  - contentinfo [ref=f2e147]:
+    - generic [ref=f2e151]:
+      - generic [ref=f2e152]:
+        - button "CloudShell" [ref=f2e557] [cursor=pointer]
+        - button "Agent Toolkit for AWS" [ref=f2e153] [cursor=pointer]
+        - button "Feedback" [ref=f2e560] [cursor=pointer]
+        - button "Console Mobile App" [ref=f2e159] [cursor=pointer]
+      - generic [ref=f2e165]: © 2026, Amazon Web Services, Inc. or its affiliates.
+      - list [ref=f2e168]:
+        - listitem [ref=f2e169]:
+          - link "Privacy" [ref=f2e170] [cursor=pointer]:
+            - /url: https://aws.amazon.com/privacy/
+        - listitem [ref=f2e171]:
+          - link "Terms" [ref=f2e172] [cursor=pointer]:
+            - /url: https://aws.amazon.com/terms/
+        - listitem [ref=f2e173]:
+          - button "Cookie preferences" [ref=f2e174] [cursor=pointer]

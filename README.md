@@ -16,5 +16,6 @@ Push here: https://github.com/ArminSHaf/BioInformatics.git
 | Week 4 | Lab 4 | Rebuilding a genome from 2000 random samples (sequence assembly) | [week4/lab4.ipynb](week4/lab4.ipynb) |
 | Week 5 | Lab 5 | Simulating DNA fragment migration on gel electrophoresis & detecting tandem repeats | [week5/lab5.ipynb](week5/lab5.ipynb) |
 | Week 6 | Lab 6 | Detecting transposon-like regions in synthetic DNA and testing on real FASTA sequences | [week6/week6.ipynb](week6/week6.ipynb) |
+| Week 7 | Lab 7 | Restriction enzyme digestion (EcoRI, BamHI, HindIII), fragment analysis, and gel electrophoresis simulation; homework: digesting two AAV serotypes side-by-side | [week7/week7.ipynb](week7/week7.ipynb) |
 
 This repository is used to store and organize my BioInformatics lab work.
