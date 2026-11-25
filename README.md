@@ -18,5 +18,6 @@ Push here: https://github.com/ArminSHaf/BioInformatics.git
 | Week 6 | Lab 6 | Detecting transposon-like regions in synthetic DNA and testing on real FASTA sequences | [week6/week6.ipynb](week6/week6.ipynb) |
 | Week 7 | Lab 7 | Restriction enzyme digestion (EcoRI, BamHI, HindIII), fragment analysis, and gel electrophoresis simulation; homework: digesting two AAV serotypes side-by-side | [week7/week7.ipynb](week7/week7.ipynb) |
 | Week 8 | Lab 8 | PromKappa digital stain (CG% + Kappa IC sliding window, center of weight, promoter classification) and Needleman-Wunsch global sequence alignment | [week8/week8.ipynb](week8/week8.ipynb) |
+| Week 9 | Lab 9 | DNA motif finding at exon-intron splice sites: count matrix, position weight matrix (PWM) with log-odds scoring and pseudocount correction | [week9/week9.ipynb](week9/week9.ipynb) |
 
 This repository is used to store and organize my BioInformatics lab work.
